@@ -1,0 +1,14 @@
+[package]
+name = "pak"
+version = "0.1.0"
+authors = ["Ulf Ejlertsson <ulf.ejlertsson@gmail.com>"]
+
+[dependencies]
+lz4 = "1.21"
+
+[dependencies.rusqlite]
+version = "0.12.0"
+features = ["blob", "bundled"]
+
+[workspace]
+members = ["cli"]
