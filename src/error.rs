@@ -1,5 +1,6 @@
 use rusqlite;
 
+
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub enum Error {
     CompressionError,
