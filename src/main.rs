@@ -21,6 +21,4 @@ fn main() {
     }
 
     println!("{}", dotenv!("MEANING_OF_LIFE"));
-
-    println!("Hello, world!");
 }
