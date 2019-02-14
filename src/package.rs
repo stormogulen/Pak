@@ -8,6 +8,7 @@ use std::io::{self, Read};
 use std::path::Path;
 
 
+
 const SCHEMA: &'static str = "
   CREATE TABLE resource (
     path TEXT NOT NULL,
